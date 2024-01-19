@@ -16,7 +16,7 @@ const TabNavigator = () => {
                 )
             }} />
             <Tab.Screen name="Location" component={MapExample} options={{
-                headerShown: false, tabBarIcon: ({ color }) => (<Ionicons name="home-outline" color={color} size={26} />
+                headerShown: false, tabBarIcon: ({ color }) => (<Ionicons name="locate-outline" color={color} size={26} />
                 )
             }} />
         </Tab.Navigator>
